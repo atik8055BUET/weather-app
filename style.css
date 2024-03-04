@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #56cbd5, #6eb393);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 25rem;
+}
+
+#cityinput{
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: #56cbd5;
+    border-radius: 3rem;
+    border: none;
+    height: 3rem;
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 1rem;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:.5rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+input:focus{
+    outline: none;
+}
+
+.extraInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+}
+#submit{
+    background-color: #f5f5f5;
+    border: none;
+    /* padding: 0.5rem 1rem; */
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+}
+#submitimage{
+    height: 1.5rem;
+    border-radius: 100%;
+    padding: 1rem;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outputTemp{
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp{
+    font-size: 4rem;
+}
+.city{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.humanidity,.wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.5rem;
+}
+
+#condition{
+    height: 3.5em;
+}
+#windimg,#humanidityimg{
+    height: 2.5rem;
+}
